@@ -1,0 +1,67 @@
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.Intro{
+    background-image: url(Intro.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    /* object-fit: ; */
+    height: 600px;
+    padding-top: 200px;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #feab29;
+    top: 20%;
+}
+.sucess-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price{
+    font-size: 700;
+    font-weight: 700;
+}
+.text{
+    padding-top: 2em;
+    margin: 0 5em;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left: 10px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: 10px;
+}
+.owl-carousel button.owl-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0px 5px;
+}
+.owl-carousel button.owl-dot.active{
+    background-color: #fd7e14;
+    width: 15px;
+    border-radius: 25%;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.box{
+    background: #fafafa;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.whyUs{
+    font-size: xx-large;
+}
+.award{
+    font-size: xx-large;
+}
